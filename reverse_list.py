@@ -1,3 +1,6 @@
+'''
+Reverse a list using recursion.
+'''
 def reverse_list(array, start, stop):
     if start < stop:
         temp = array[start]
